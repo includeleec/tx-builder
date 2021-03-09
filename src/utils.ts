@@ -1,4 +1,4 @@
-import { Networks } from '@gnosis.pm/safe-apps-sdk';
+import { Networks } from '@kingkongswap/safe-apps-sdk';
 
 export const rpcUrlGetterByNetwork: {
   [key in Networks]: null | ((token?: string) => string);

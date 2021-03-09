@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "./static/js/main.09801f83.chunk.js",
-    "main.js.map": "./static/js/main.09801f83.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.2b66bcc5.js",
-    "runtime-main.js.map": "./static/js/runtime-main.2b66bcc5.js.map",
-    "static/js/2.86e93f6a.chunk.js": "./static/js/2.86e93f6a.chunk.js",
-    "static/js/2.86e93f6a.chunk.js.map": "./static/js/2.86e93f6a.chunk.js.map",
-    "index.html": "./index.html",
-    "static/js/2.86e93f6a.chunk.js.LICENSE.txt": "./static/js/2.86e93f6a.chunk.js.LICENSE.txt",
-    "static/media/averta-bold.woff2": "./static/media/averta-bold.8fdcd8d4.woff2",
-    "static/media/averta-normal.woff2": "./static/media/averta-normal.39d04879.woff2"
+    "main.js": "/static/js/main.8c113a7f.chunk.js",
+    "main.js.map": "/static/js/main.8c113a7f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8b245690.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8b245690.js.map",
+    "static/js/2.d1d7d56c.chunk.js": "/static/js/2.d1d7d56c.chunk.js",
+    "static/js/2.d1d7d56c.chunk.js.map": "/static/js/2.d1d7d56c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.d1d7d56c.chunk.js.LICENSE.txt": "/static/js/2.d1d7d56c.chunk.js.LICENSE.txt",
+    "static/media/averta-bold.woff2": "/static/media/averta-bold.8fdcd8d4.woff2",
+    "static/media/averta-normal.woff2": "/static/media/averta-normal.39d04879.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b66bcc5.js",
-    "static/js/2.86e93f6a.chunk.js",
-    "static/js/main.09801f83.chunk.js"
+    "static/js/runtime-main.8b245690.js",
+    "static/js/2.d1d7d56c.chunk.js",
+    "static/js/main.8c113a7f.chunk.js"
   ]
 }

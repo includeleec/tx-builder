@@ -1,0 +1,99 @@
+Arguments: 
+  /Users/licheng/.nvm/versions/node/v12.20.0/bin/node /Users/licheng/.npm-global/bin/yarn build
+
+PATH: 
+  /Users/licheng/.pyenv/shims:/Users/licheng/.pyenv/bin:/Users/licheng/.nvm/versions/node/v12.20.0/bin:/usr/local/sbin:/Users/licheng/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/aria2/bin:/Library/Apple/usr/bin:/Users/licheng/.pyenv/shims:/Users/licheng/.pyenv/bin:/Users/licheng/.nvm/versions/node/v12.20.0/bin:/usr/local/sbin:/Users/licheng/bin:/Users/licheng/.cargo/bin:/Users/licheng/.npm-global/bin:/usr/local/opt/mysql-client/bin:/Users/licheng/.composer/vendor/bin:/usr/local/Cellar/mysql@5.7/5.7.29/bin:/Users/licheng/.npm-global/bin:/usr/local/opt/mysql-client/bin:/Users/licheng/.composer/vendor/bin:/usr/local/Cellar/mysql@5.7/5.7.29/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.20.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/licheng/code/gnosis/safe-react-apps/apps/tx-builder/package.json: Unexpected string in JSON at position 1424
+      at JSON.parse (<anonymous>)
+      at /Users/licheng/.npm-global/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/licheng/.npm-global/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/licheng/.npm-global/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "tx-builder",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+      "@gnosis.pm/safe-react-components": "^0.5.0",
+      "@kingkongswap/safe-apps-sdk": "^2.0.0",
+      "@material-ui/core": "^4.11.3",
+      "axios": "^0.21.1",
+      "dotenv": "^8.2.0",
+      "lodash": "^4.17.21",
+      "web3": "^1.2.5",
+      "@gnosis.pm/safe-apps-react-sdk": "2.0.0",
+      "lerna": "^3.22.1",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-scripts": "^4.0.2",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.5",
+      "@testing-library/user-event": "^12.7.3",
+      "@types/jest": "^26.0.20",
+      "@types/node": "^14.14.31",
+      "@types/react": "^17.0.2",
+      "@types/react-dom": "^17.0.1",
+      "@types/styled-components": "^5.1.7",
+      "@typescript-eslint/eslint-plugin": "^4.15.2",
+      "@typescript-eslint/parser": "^4.15.2",
+      "babel-eslint": "10.1.0",
+      "dotenv-cli": "^4.0.0",
+      "eslint": "7.20.0",
+      "eslint-config-prettier": "^8.1.0",
+      "eslint-config-react-app": "^6.0.0",
+      "eslint-plugin-flowtype": "^5.3.1",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-jsx-a11y": "^6.3.1",
+      "eslint-plugin-prettier": "^3.3.1",
+      "eslint-plugin-react": "^7.22.0",
+      "eslint-plugin-react-hooks": "^4.0.8",
+      "prettier": "^2.2.1",
+      "react-app-rewired": "^2.1.6",
+      "typescript": "^4.2.2"
+    }
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test --passWithNoTests"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "react-app-rewired": "^2.1.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

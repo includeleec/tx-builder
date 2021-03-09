@@ -1,6 +1,6 @@
 import axios from 'axios';
 import memoize from 'lodash/memoize';
-import { Networks } from '@gnosis.pm/safe-apps-sdk';
+import { Networks } from '@kingkongswap/safe-apps-sdk';
 
 interface ContractMethod {
   inputs: any[];
@@ -31,7 +31,7 @@ const abiUrlGetterByNetwork: {
     `https://volta-explorer.energyweb.org/api?module=contract&action=getabi&address=${address}`,
   UNKNOWN: null,
   BSC_MAINNET: (address: string) =>
-  `https://api.bscscan.com/api?module=contract&action=getabi&address=${address}&apikey=FG665S4M83IT7MMXS2RD6F69DZA4F3FCHW`,
+  `https://api.bscscan.com/api?module=contract&action=getabi&address=${address}&apikey=${process.env.REACT_APP_RPC_TOKEN}`,
 };
 
 class InterfaceRepository {

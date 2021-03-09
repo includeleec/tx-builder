@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Web3 from 'web3';
-import { Networks } from '@gnosis.pm/safe-apps-sdk';
+import { Networks } from '@kingkongswap/safe-apps-sdk';
 
 import InterfaceRepository from './interfaceRepository';
 import { InterfaceRepo } from './interfaceRepository';

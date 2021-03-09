@@ -19,7 +19,7 @@ import { ContractInterface } from '../hooks/useServices/interfaceRepository';
 import useServices from '../hooks/useServices';
 import { ProposedTransaction } from '../typings/models';
 import WidgetWrapper from './WidgetWrapper';
-import { Networks } from '@gnosis.pm/safe-apps-sdk';
+// import { Networks } from '@kingkongswap/safe-apps-sdk';
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -292,13 +292,13 @@ const Dashboard = () => {
             </>
           )}
 
-          {/* Input ETH value */}
+          {/* Input BNB value */}
           {isValueInputVisible() && (
             <>
               <TextField
                 style={{ marginTop: 10, marginBottom: 10 }}
                 value={value}
-                label="ETH"
+                label="BNB"
                 onChange={(e) => setValue(e.target.value)}
               />
 

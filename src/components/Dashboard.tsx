@@ -238,11 +238,11 @@ const Dashboard = () => {
 
   return (
     <WidgetWrapper>
-      <StyledTitle size="sm">Multisend transaction builder</StyledTitle>
+      <StyledTitle size="sm">BSC Multisend transaction builder</StyledTitle>
       <StyledText size="sm">
         This app allows you to build a custom multisend transaction.
         <br />
-        Enter a Ethereum contract address or ABI to get started.
+        Enter a Binance Smart Chain Mainnet contract address or ABI to get started.
         <br />
         <Link
           href="https://help.gnosis-safe.io/en/articles/4680071-create-a-batched-transaction-with-the-transaction-builder-safe-app"

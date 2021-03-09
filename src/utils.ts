@@ -12,5 +12,6 @@ export const rpcUrlGetterByNetwork: {
   XDAI: () => 'https://dai.poa.network',
   ENERGY_WEB_CHAIN: () => 'https://rpc.energyweb.org',
   VOLTA: () => 'https://volta-rpc.energyweb.org',
-  UNKNOWN: () => 'https://bsc-dataseed.binance.org',
+  UNKNOWN: null,
+  BSC_MAINNET: () => 'https://bsc-dataseed.binance.org'
 };

@@ -30,6 +30,8 @@ const abiUrlGetterByNetwork: {
   VOLTA: (address: string) =>
     `https://volta-explorer.energyweb.org/api?module=contract&action=getabi&address=${address}`,
   UNKNOWN: null,
+  BSC_MAINNET: (address: string) =>
+  `https://api.bscscan.com/api?module=contract&action=getabi&address=${address}&apikey=FG665S4M83IT7MMXS2RD6F69DZA4F3FCHW`,
 };
 
 class InterfaceRepository {

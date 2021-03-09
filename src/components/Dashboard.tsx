@@ -19,6 +19,7 @@ import { ContractInterface } from '../hooks/useServices/interfaceRepository';
 import useServices from '../hooks/useServices';
 import { ProposedTransaction } from '../typings/models';
 import WidgetWrapper from './WidgetWrapper';
+import { Networks } from '@gnosis.pm/safe-apps-sdk';
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -70,7 +71,7 @@ const ModalBody = ({ txs, deleteTx }: { txs: Array<ProposedTransaction>; deleteT
 const Dashboard = () => {
   const { sdk, safe } = useSafeAppsSDK();
   // hard code safe.network = BSC_MAINNET
-  const services = useServices('UNKNOWN');
+  const services = useServices('BSC_MAINNET');
 
   const [addressOrAbi, setAddressOrAbi] = useState('');
   const [loadAbiError, setLoadAbiError] = useState(false);

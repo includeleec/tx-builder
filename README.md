@@ -1,3 +1,9 @@
+Make it easier for users to use gnosis safe multi-signature on BSC
+
+This project is based on Gnosis Safe's existing Multisend transaction builder, which is adapted to the BSC mainnet. 
+
+This project is based on the Multisend transaction builder that is already in place at BSC, and makes it easier to use for multiple users on BSC.
+
 ## Install
 
 ### Install dependencies
